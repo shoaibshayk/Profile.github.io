@@ -629,11 +629,17 @@ footer .copyright {
     .hero .left img {
         width: 260px;
     }
+    .hero .left{
+        margin-bottom: 10rem;
+    }
     .hero .right h1 {
         font-size: 3rem;
     }
+    .hero .right h6 {
+        margin-top: 7rem;
+    }
     .hero {
-        padding-top: 10rem;
+        padding-top: 1rem;
     }
     header {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 90%, 0 100%);
