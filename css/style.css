@@ -624,7 +624,7 @@ footer .copyright {
 
 @media (max-width:1240px) {
     header #main-nav{
-        display: none;
+        visibility: hidden;
     }
     .hero .left img {
         width: 260px;
@@ -665,6 +665,10 @@ footer .copyright {
     }
     .hamberger img{
         width: 30px;
+    }
+    .brand{
+        visibility: visible;
+        margin-top: -1rem;
     }
     
 }
@@ -734,6 +738,10 @@ footer .copyright {
     }
     .mobile-nav {
         width: 100%;
+    }
+    .brand{
+        visibility: visible;
+        margin-top: -5rem;
     }
 }
 
